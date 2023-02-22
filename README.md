@@ -1,31 +1,74 @@
+# Kom i gang med micro:bit
 
-> Åpne denne siden på [https://broccolisurprise.github.io/veiledning-bitbaot/](https://broccolisurprise.github.io/veiledning-bitbaot/)
+##Steg 0 YEAH @showdialog
+Før vi begynner, må vi koble sammen PCen og micro:biten.
 
-## Bruk som utvidelse
+![Bilde av en micro:bit koblet til](https://d14xnrffmhx4ml.cloudfront.net/1661434482/smarthus-veiledning-microbit-for-seg-selv.png)
 
-Dette kodeområdet kan bli lagt til som en **utvidelse** i MakeCode.
+Hent micro:bit og USB-ledning og plugg ting sammen.
 
-* åpne [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* klikk på **Nytt prosjekt**
-* klikk på **Utvidelser** i menyen under tannhjulet
-* søk etter **https://github.com/broccolisurprise/veiledning-bitbaot** og importér
+##Steg 1 prokkprik @showdialog
+Og så må vi koble nettleseren til micro:biten, så vi kan laste ned programmene direkte
 
-## Rediger dette prosjektet ![Bygg statusmerke](https://github.com/broccolisurprise/veiledning-bitbaot/workflows/MakeCode/badge.svg)
+![Bilde av USB-connect device](https://d14xnrffmhx4ml.cloudfront.net/1661434772/smarthus-veiledning-usbconnect.png)
 
-For å redigere dette kodeområdet i MakeCode.
+##Steg 000 
 
-* åpne [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* klikk på **Importer** og så på **Importér URL**
-* lim inn **https://github.com/broccolisurprise/veiledning-bitbaot** og klikk på importér
+Trykk på de tre prikkene ved siden av "Last ned" og så "Connect Device". Følg informasjonen på skjermen for å koble til.
 
-## Forhåndsvisning av blokker
+Hvis ikonet på "Last ned" ser ut som et micro:bit-ansikt i stedet for et papir-ark med en pil, har dere gjort det riktig.
 
-Dette bildet viser blokk-koden fra den siste oppdateringen i hovedgrenen.
-Dette bildet kan ta noen minutter å oppdatere.
+Trykk på "Neste" for å fortsette.
 
-![En opptegnet visning av blokkene](https://github.com/broccolisurprise/veiledning-bitbaot/raw/master/.github/makecode/blocks.png)
+##Steg 0 YEAH
 
-#### Metadata (brukes for søk, visualisering)
+Nå er du klar til å seile! Hent blokker fra menyen til venstre for å bygge programmet ditt.
 
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+Vent på klarsignal fra formidleren før dere går for å hente båten.
+
+##Steg 2232 WOO
+Godt jobbet! Trykk på Slutt/Finish for å avslutte veiledningen og få tilgang til resten av blokkene i MakeCode.
+
+
+
+```ghost
+input.onButtonPressed(Button.A, function () {
+    Hev_anker = true
+    basic.showArrow(ArrowNames.East)
+})
+input.onButtonPressed(Button.B, function () {
+    Hev_anker = false
+    basic.showArrow(ArrowNames.West)
+})
+let Hev_anker = false
+bitbaot.setPortColor(0xFF0000)
+bitbaot.setStarboardColor(0x00FF00)
+Hev_anker = false
+basic.showArrow(ArrowNames.West)
+basic.forever(function () {
+    if (Hev_anker) {
+        bitbaot.goms(BBDirection.Forward, 60, randint(300, 1200))
+        if (Math.randomBoolean()) {
+            bitbaot.rotatems(BBRobotDirection.Left, 60, 400)
+        } else {
+            bitbaot.rotatems(BBRobotDirection.Right, 60, 400)
+        }
+    }
+})
+input.onGesture(Gesture.Shake, function () {
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showIcon(IconNames.Heart)
+})
+input.onSound(DetectedSound.Loud, function () {
+    basic.showString("Hello!")
+})
+basic.forever(function () {
+	
+})
+```
