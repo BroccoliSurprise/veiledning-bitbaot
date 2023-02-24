@@ -6,7 +6,7 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "BitBot": "github:broccolisurprise/bitbaot#v0.0.3"
+        "BitBot": "github:broccolisurprise/bitbaot#v0.0.4"
     },
     "files": [
         "main.blocks",
