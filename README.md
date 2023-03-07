@@ -1,16 +1,22 @@
 # Ut på tur med Bitbaot
 
 ##Steg 0 YEAH @showdialog
-micro:biten settes oppi skuta med skjermen fremover.
+Skip o hoi!  
 
-![Bilde av en micro:bit i båten](https://d14xnrffmhx4ml.cloudfront.net/1661434482/smarthus-veiledning-microbit-for-seg-selv.png)
+![Bilde av en fin Bit:Båt](https://d14xnrffmhx4ml.cloudfront.net/1678200552/bitbaat.JPG )
 
 
 
 ##Steg 1 prokkprik @showdialog
-Legg merke til ON/OFF-bryteren bakerst i båten. Den må være OFF når du programmerer og er koblet til PCen.
+Legg merke til ON/OFF-bryteren bakerst i båten. Vent med å skru den på til du har satt micro:biten på plass i båten. 
 
-![Bilde av ON/OFF-bryter](https://d14xnrffmhx4ml.cloudfront.net/1661434772/smarthus-veiledning-usbconnect.png)
+![Bilde av ON/OFF-bryter](https://d14xnrffmhx4ml.cloudfront.net/1678200550/bitbaat-av-paa.JPG)
+
+##Steg 1 prokkprik @showdialog
+micro:biten settes nedi dette sporet, med skjermen frem. 
+
+![Bilde av micro:bit plassert korrekt i båten](https://d14xnrffmhx4ml.cloudfront.net/1678200553/bitbaat-slot.JPG)
+
 
 ##Steg 000 
 Da er du klar til å begynne å programmere båten! Hent blokker fra menyen til venstre.
@@ -24,7 +30,7 @@ Nå skal du ut på sjøen! Husk å tenne lyktene så de andre båtene ser deg.
 
 
 ##Steg 2232 WOO
-Godt jobbet! Trykk på Slutt/Finish for å avslutte veiledningen og få tilgang til resten av blokkene i MakeCode.
+Godt jobbet! Hvis du har klart å komme deg rundt bøyen og tilbake, kan du trykke på Slutt/Finish for å avslutte veiledningen og få tilgang til resten av blokkene i MakeCode.
 
 
 
