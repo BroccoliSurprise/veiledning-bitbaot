@@ -49,7 +49,7 @@ bitbaot.setStarboardColor(0x00FF00)
 bitbot.BBBias(BBRobotDirection.Left, 10)
 Hev_anker = false
 basic.pause(100)
-bitbaot.select_model(BBModel.XL)
+bitbaot.BBBias(BBRobotDirection.Left, 10)
 bitbaot.go(BBDirection.Forward, 60)
 bitbaot.rotate(BBRobotDirection.Left, 60)
 basic.showArrow(ArrowNames.West)
