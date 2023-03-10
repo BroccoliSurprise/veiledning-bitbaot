@@ -46,13 +46,12 @@ input.onButtonPressed(Button.B, function () {
 let Hev_anker = false
 bitbaot.setPortColor(0xFF0000)
 bitbaot.setStarboardColor(0x00FF00)
-bitbot.BBBias(BBRobotDirection.Left, 10)
 Hev_anker = false
 basic.pause(100)
-bitbaot.BBBias(BBRobotDirection.Left, 10)
 bitbaot.go(BBDirection.Forward, 60)
 bitbaot.rotate(BBRobotDirection.Left, 60)
 basic.showArrow(ArrowNames.West)
+bitbaot.BBBias(BBRobotDirection.Left, 10)
 for (let index = 0; index < 4; index++) {
     	
     }
