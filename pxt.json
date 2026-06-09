@@ -13,7 +13,8 @@
         "main.ts",
         "README.md",
         "V2Norsk.md",
-        "V2English.md"
+        "V2English.md",
+        "_locales/nb-NO/V2Norsk.md"
     ],
     "testFiles": [
         "test.ts"
