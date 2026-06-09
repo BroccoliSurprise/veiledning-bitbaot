@@ -1,20 +1,22 @@
-# Ut på tokt med Bit:Båt
+# Set sail with Bit:Boat!
 
-## Velkommen! @showdialog
+## Welcome! @showdialog
 
-I dag skal vi ut på tokt med Bit:Båt-roboter. Vi har ulike oppdrag som må løses ute på havet, og dere kan velge mange ulike måter å løse disse.
-Trykk OK for å fortsette videre i denne veiledningen. 
+Today we set sail with the Bit:Boat robots. There's lots of different missions to solve out at sea, and you can solve them in whatever way you like.
 
-(If you would like this guide in english, [please follow this link.](https://makecode.microbit.org/#tutorial:github:broccolisurprise/veiledning-bitbaot/V2English))
+Press OK to continue this guide. 
 
-## Programmere selv, eller fjernstyre? @showdialog
+(Hvis du vil ha denne veiledningen på norsk, [trykker du her](https://makecode.microbit.org/#tutorial:github:broccolisurprise/veiledning-bitbaot/V2Norsk))
 
-Programmering er lettere enn man skulle tro. Har du for eksempel poppet popcorn i en mikrobølgeovn før? Da har du programmert en robot!
+## Write your own programs or use the simple remote? @showdialog
 
-Hvis du har lyst til å lære hvordan du programmerer Bit:Båt-roboten til å skifte lys og kjøre rundt på sjøen kan du trykke på OK for å fortsette.
+Programming is easier than you might think. Have you ever popped popcorn in a microwave oven? Then you're already an experienced robot programmer!
 
-Dersom du heller har lyst til å gå rett på lek og moro, kan du [trykke her for å styre Bit:Båten med fjernkontroll](https://vilvite.github.io/FaceRace4microbit/bitbaot.html) i stedet.
+If you want to learn how to write commands and programs for the Bit:Boat robot (Changing lights, driving set paths and so on), press OK to continue.
 
-## Godt valg!
+Or, if you would rather just have fun and play, you can [click here to control the Bit:Boat with a remote control.](https://vilvite.github.io/FaceRace4microbit/bitbaot.html)
 
-Kult, la oss sette i gang.
+
+## Good choice!
+
+Awesome, let's get to it!
