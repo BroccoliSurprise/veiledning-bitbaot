@@ -12,7 +12,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "V2Norsk.md"
+        "V2Norsk.md",
+        "V2English.md"
     ],
     "testFiles": [
         "test.ts"
