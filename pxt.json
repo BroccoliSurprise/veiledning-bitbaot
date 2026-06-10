@@ -6,17 +6,14 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "BitBot": "github:broccolisurprise/bitbaot#v0.0.5"
+        "BitBot": "github:broccolisurprise/bitbaot#v0.1.1"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
         "V2Norsk.md",
-        "V2English.md",
-        "_locales/nb-NO/V2Norsk.md",
-        "BitBoatV2.md",
-        "_locales/nb/BitBoatV2.md"
+        "V2English.md"
     ],
     "testFiles": [
         "test.ts"
