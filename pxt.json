@@ -14,7 +14,9 @@
         "README.md",
         "V2Norsk.md",
         "V2English.md",
-        "_locales/nb-NO/V2Norsk.md"
+        "_locales/nb-NO/V2Norsk.md",
+        "BitBoatV2.md",
+        "_locales/nb/BitBoatV2.md"
     ],
     "testFiles": [
         "test.ts"
