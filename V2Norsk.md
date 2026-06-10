@@ -3,7 +3,7 @@
 ## Velkommen! @showdialog
 
 I dag skal vi ut på tokt med Bit:Båt-roboter. Vi har ulike oppdrag som må løses ute på havet, og dere kan velge mange ulike måter å løse de på.
-Trykk OK for å fortsette videre i denne veiledningen. 
+Trykk OK for å fortsette videre i denne veiledningen, så får du se hvordan du kan styre roboten.
 
 (If you would like this guide in english, [please follow this link.](https://makecode.microbit.org/#tutorial:github:broccolisurprise/veiledning-bitbaot/V2English))
 
@@ -80,7 +80,7 @@ Dobbeltsjekk på at BitBåten er skrudd AV før du fortsetter.
 
 Koble micro:biten til med USB-ledning, vent noen sekunder til du ser "smilefjeset" på ``|Download|``-knappen, og trykk på samme måte som i sted for å laste ned det nye programmet.
 
-Vent til den er ferdig, trekk ut ledningen, og sett bilen **enten på gulvet eller på et bord med vegger** før du skrur den på igjen.
+Vent til den er ferdig, trekk ut ledningen, og sett båten **enten på gulvet eller på et bord med vegger** før du skrur den på igjen.
 
 ## Trykk på A-knappen for å starte
 Når BitBåten står trygt, kan du skru den PÅ, og trykke på A-knappen **på micro:biten** for å kjøre.
@@ -99,5 +99,4 @@ bitbaot.setStarboardColor(0x00FFFF)
 bitbaot.setPortColor(0xFF00FF)
 
 ```
-
 
