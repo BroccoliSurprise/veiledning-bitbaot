@@ -1,4 +1,4 @@
-# Ut på tokt med Bit:Båt
+# Ut på tokt med Bit:Båt, (test av oversettelse)
 
 ## Velkommen! @showdialog
 
