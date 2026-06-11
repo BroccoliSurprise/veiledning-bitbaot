@@ -100,3 +100,23 @@ bitbaot.setPortColor(0xFF00FF)
 
 ```
 
+
+```ghost
+basic.pause(100)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    `)
+basic.showNumber(0)
+basic.showString("Hello!")
+for (let index = 0; index < 4; index++) {
+	
+}
+
+basic.forever(function () {
+	
+})
+```
