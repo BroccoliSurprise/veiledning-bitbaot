@@ -13,13 +13,15 @@
         "main.ts",
         "README.md",
         "V2Norsk.md",
-        "V2English.md"
+        "V2English.md",
+        "satelittNorsk.md",
+        "sateliteEnglish.md"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "8.0.22",
+        "target": "9.0.12",
         "targetId": "microbit"
     },
     "supportedTargets": [
